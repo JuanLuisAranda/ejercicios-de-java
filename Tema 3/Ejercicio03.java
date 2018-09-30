@@ -4,7 +4,7 @@
  * @author Juan Luis Aranda
  */
 
-public class Ejercicio02 {
+public class Ejercicio03 {
   public static void main(String[] args) {
 	System.out.println("Convertidor de pesetas a euros ");
     System.out.print("Por favor, introduce la cantidad de pesetas que desea convertir en euros: ");
