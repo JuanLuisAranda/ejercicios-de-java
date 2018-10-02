@@ -1,10 +1,10 @@
 /**
- * Ejercicio 2
+ * Ejercicio 3
  *
  * @author Juan Luis Aranda
  */
 
-public class Ejercicio02 {
+public class Ejercicio03 {
   public static void main(String[] args) {
 	  
 	String dia; 
@@ -14,25 +14,25 @@ public class Ejercicio02 {
     
     switch(n) {
       case 1:
-        dia = "lunes";
+        dia = "Lunes";
         break;
       case 2:
-        dia = "martes";
+        dia = "Martes";
         break;
       case 3:
-        dia = "miércoles";
+        dia = "Miércoles";
         break;
       case 4:
-        dia = "jueves";
+        dia = "Jueves";
         break;
       case 5:
-        dia = "viernes";
+        dia = "Viernes";
         break;
       case 6:
-        dia = "sábado";
+        dia = "Sábado";
         break;
       case 7:
-        dia = "domingo";
+        dia = "Domingo";
         break;
       default:
         dia = "Debe introducir un número del 1 al 7";
