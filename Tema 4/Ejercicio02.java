@@ -6,39 +6,24 @@
 
 public class Ejercicio02 {
   public static void main(String[] args) {
-	  
-	String dia; 
-	
-    System.out.print("Por favor, introduzca un número del 1 al 7 y te diré el día de la semana correspondiente: ");
-    int n = Integer.parseInt(System.console().readLine());
-    
-    switch(n) {
-      case 1:
-        dia = "lunes";
-        break;
-      case 2:
-        dia = "martes";
-        break;
-      case 3:
-        dia = "miércoles";
-        break;
-      case 4:
-        dia = "jueves";
-        break;
-      case 5:
-        dia = "viernes";
-        break;
-      case 6:
-        dia = "sábado";
-        break;
-      case 7:
-        dia = "domingo";
-        break;
-      default:
-        dia = "Debe introducir un número del 1 al 7";
-    }
-    
-    System.out.println(dia);
 
+    System.out.print("Por favor, introduzca una hora del día (0 - 23): ");
+    int hora = Integer.parseInt(System.console().readLine());
+    
+    if ((hora >= 6) && (hora <= 12)) {
+      System.out.println("¡Buenos días!");
+    }
+        
+    if ((hora >= 13) && (hora <= 20)) {
+      System.out.println("¡Buenas tardes!");
+    }
+      
+    if (((hora >= 21) && (hora < 24)) || ((hora <= 5) && (hora >= 0))) {
+      System.out.println("¡Buenas noches!");
+    }
+      
+    if ((hora >= 24) || (hora < 0)) {
+      System.out.println("Esa hora no existe.");
+    }
   }
-}    
+}
