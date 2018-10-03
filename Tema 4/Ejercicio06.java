@@ -1,7 +1,7 @@
 /**
  * Ejercicio 6
  *
- * @author Juan Luis ARanda
+ * @author Juan Luis Aranda
  */
 public class Ejercicio06 {
 
