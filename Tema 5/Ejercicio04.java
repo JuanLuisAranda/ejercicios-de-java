@@ -1,5 +1,5 @@
 /**
- * Ejercicio 1
+ * Ejercicio 4
  * 
  * @author Juan Luis Aranda
  */
@@ -7,7 +7,7 @@ public class Ejercicio04 {
 
   public static void main(String[] args) {
     
-    for(int i = 320; i >= 160; i -= 20) {
+    for(int i = 160; i <= 320; i += 20) {
       System.out.println(i);
     }
   }
