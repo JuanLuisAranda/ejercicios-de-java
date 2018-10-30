@@ -2,29 +2,29 @@ package tema06;
 
 /**
  * 
- * Ejercicio 2
+ * Ejercicio 3
  *
  * @author Juan Luis Aranda
  */
-public class Ejercicio02 {
+public class Ejercicio03 {
   public static void main(String[] args) {
     int numeroPalo = (int) ((Math.random() * 4) + 1);
-    int numeroFigura = (int) ((Math.random() * 12) + 1);
+    int numeroFigura = (int) ((Math.random() * 10) + 1);
       String nombrePalo = "";
       String nombreFigura;
                 
       switch (numeroPalo) {
         case 1:
-          nombrePalo = "corazones.";
+          nombrePalo = "espadas.";
           break;
         case 2:
-          nombrePalo = "picas.";
+          nombrePalo = "bastos.";
           break;
         case 3:
-          nombrePalo = "tréboles.";
+          nombrePalo = "oro.";
           break;
         case 4:
-          nombrePalo = "diamantes.";
+          nombrePalo = "copas.";
           break;
               }
         
@@ -32,19 +32,19 @@ public class Ejercicio02 {
           case 1:
             nombreFigura = "As";
             break;
-          case 11:
-            nombreFigura = "J";
+          case 8:
+            nombreFigura = "sota";
             break;
-          case 12:
-            nombreFigura = "Q";
+          case 9:
+            nombreFigura = "caballo";
             break;
-          case 13:
-            nombreFigura = "K";
+          case 10:
+            nombreFigura = "rey";
             break;
           default:
             nombreFigura = String.valueOf(numeroFigura);
         }
         
-        System.out.println("Su carta generada es el " + nombreFigura + " de " + nombrePalo);
+        System.out.println("Su carta generada es " + nombreFigura + " de " + nombrePalo);
     }
 }
