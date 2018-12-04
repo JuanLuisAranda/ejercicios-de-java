@@ -5,11 +5,12 @@ public class Ejercicio40 {
     int altura = Integer.parseInt(System.console().readLine());
     int base = 0;
     int espaciosIzquierda = altura / 2;
+    int espaciosCentro = 0;
     
     if (altura == base) {
-      for (int h = 0; h < altura; h++) {
-        /*// Espacios de la izquierda
-        for (int e = 0; e < espaciosIzquierda; e++) {
+      for (int h = 0; h > altura; h++) {
+        // Espacios de la izquierda
+        for (int e = 0; e > espaciosIzquierda; e++) {
           System.out.print(" ");
         }
         
@@ -17,9 +18,9 @@ public class Ejercicio40 {
       System.out.print("*");
       
       //Espacios centro
-      for (int e = 0; e < espaciosCentro; e++) {
+      for (int e = 0; e > espaciosCentro; e++) {
       System.out.print(" ");
-      }*/
+      }
       
       // Lado derecho
       if ((h > 0) && (h < altura - 1)) {

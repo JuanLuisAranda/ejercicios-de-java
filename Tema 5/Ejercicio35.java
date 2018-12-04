@@ -6,8 +6,7 @@
 public class Ejercicio35 {
 
   public static void main(String[] args) {
-    System.out.print("Introduce la altura de la X, debe ser un número impar "
-            + "mayor de 3: ");
+    System.out.print("Introduce una altura: ");
     int h = Integer.parseInt(System.console().readLine());
     int altura = 1;
     int espadelante = 0;
@@ -23,7 +22,7 @@ public class Ejercicio35 {
       while (altura <= (h / 2)) {
 
         for (int i = 1; i <= espadelante; i++) {
-          System.out.print(" ");
+          System.out.print("*");
         }
 
         System.out.print("*");
@@ -43,20 +42,22 @@ public class Ejercicio35 {
       while (centro < h) {
 
         for (int i = 1; i <= espacentro; i++) {
-          System.out.print(" ");
+          System.out.print("*");
         }
 
         espacentro--;
         centro++;
       }
       System.out.println("*");
+      
+      
 
-      while (altura2 <= (h / 2)) {
+      /*while (altura2 <= (h / 2)) {
 
         for (int i = 1; i <= espadelante2; i++) {
           System.out.print(" ");
         }
-
+        
         System.out.print("*");
         for (int i = 1; i <= espadetras2; i++) {
           System.out.print(" ");
@@ -69,7 +70,7 @@ public class Ejercicio35 {
         espadelante2--;
         espadetras2 += 2;
         System.out.println();
-      }
+      }*/
 
     } else {
       System.out.print("Error, el número debe ser mayor o igual a 3 e impar");
