@@ -2,11 +2,10 @@ package ejercicios;
 import funciones.FuncionesConNumeros;
 
 /**
- * Ejercicio 15 del tema 08
+ * Ejercicio 15 
  * 
- * Muestra los números primos que hay entre 1 y 1000.
  *
- * @author Jorge García Molina
+ * @author Juan Luis Aranda
  */
 public class Ejercicio15 {
   public static void main(String[] args) {
