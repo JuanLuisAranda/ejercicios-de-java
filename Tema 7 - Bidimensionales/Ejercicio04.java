@@ -9,7 +9,8 @@ import java.util.Scanner;
  * @author Juan Luis Aranda
  */
 public class Ejercicio04 {
-  public static void main(String[] args) {
+  public static void main(String[] args) 
+    throws InterruptedException { // Se añade esta línea para poder usar sleep
     Scanner s = new Scanner(System.in);
     
     System.out.println("Array bidimensional (4 * 5) y totales <con retardo y números aleatorios>");
@@ -35,7 +36,7 @@ public class Ejercicio04 {
         System.out.printf("%7d   ", num[fila][columna]);
         sumaFila += num[fila][columna];
       }
-      Thread.sleep(1000);
+      Thread.sleep(1000); // retardo de un segundo
       System.out.printf("|%7d\n", sumaFila);
     }
     
@@ -52,12 +53,11 @@ public class Ejercicio04 {
       for(fila = 0; fila < F; fila++) {
         sumaColumna += num[fila][columna];
       }
-
       sumaTotal += sumaColumna;
-      Thread.sleep(1000);
+      Thread.sleep(1000); // retardo de un segundo
       System.out.printf("%7d   ", sumaColumna);
     }
-    Thread.sleep(3000);
+    Thread.sleep(3000); // retardo de tres segundos
       System.out.printf("|%7d   ", sumaTotal);
   }
   
