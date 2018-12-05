@@ -2,7 +2,7 @@ package funciones;
 
 /**
  * 
- * Ejercicios 1-14 del tema 08.
+ * Ejercicios 1-14
  * 
  * Crea una biblioteca de funciones matemáticas que contenga las siguientes
  * funciones. Recuerda que puedes usar unas dentro de otras si es necesario.
@@ -164,8 +164,7 @@ public class FuncionesConNumeros {
       invertido /= 10;
     }
     return voltea(invertido);
-  }
-  
+  }  
   /**
    * Función para juntar 2 números formando uno nuevo
    * 
