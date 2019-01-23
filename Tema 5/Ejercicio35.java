@@ -22,7 +22,7 @@ public class Ejercicio35 {
       while (altura <= (h / 2)) {
 
         for (int i = 1; i <= espadelante; i++) {
-          System.out.print("*");
+          System.out.print(" ");
         }
 
         System.out.print("*");
@@ -52,7 +52,7 @@ public class Ejercicio35 {
       
       
 
-      /*while (altura2 <= (h / 2)) {
+      while (altura2 <= (h / 2)) {
 
         for (int i = 1; i <= espadelante2; i++) {
           System.out.print(" ");
@@ -70,7 +70,7 @@ public class Ejercicio35 {
         espadelante2--;
         espadetras2 += 2;
         System.out.println();
-      }*/
+      }
 
     } else {
       System.out.print("Error, el número debe ser mayor o igual a 3 e impar");
