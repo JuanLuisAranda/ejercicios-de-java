@@ -1,33 +1,25 @@
 package tema07;
 
 /**
- * 
- * Ejercicio 2
  *
  * @author Juan Luis Aranda
  */
 public class Ejercicio02 {
+
   public static void main(String[] args) {
-    //Defino el array 
-	char[] simbolo; 
-    /////////////////
-    
-    //Reservo espacios en el array
-	simbolo = new char[9]; 
-    /////////////////
-      
+    char[] simbolo = new char[10];
+
     simbolo[0] = 'a';
     simbolo[1] = 'x';
     simbolo[4] = '@';
-    simbolo[6] = '.';
-    simbolo[7] = '.';
+    simbolo[6] = ' ';
+    simbolo[7] = '+';
     simbolo[8] = 'Q';
-    
-    System.out.println("El array caracter contiene los siguientes elementos:");
-    
-    for (int i = 0; i < 9; i++) {
+
+    System.out.println("El array simbolo contiene los siguientes elementos: ");
+    for (int i = 0; i < 10; i++) {
       System.out.println(simbolo[i]);
-}
+    }
   }
-  
+
 }
