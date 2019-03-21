@@ -1,7 +1,5 @@
 package tema07;
 
-import java.util.Scanner;
-
 /**
  *
  * @author Juan Luis Aranda
@@ -9,7 +7,6 @@ import java.util.Scanner;
 public class Ejercicio10 {
 
   public static void main(String[] args) {
-    Scanner s = new Scanner(System.in);
 
     int[] numero = new int[20];
     int[] par = new int[20];
@@ -43,7 +40,7 @@ public class Ejercicio10 {
     for (int i = pares; i < 20; i++) { //Desde donde terminan los pares hasta que se rellenan los 20 numeros
       numero[i] = impar[i - pares]; // Empieza donde se terminan los pares
     }
-    
+
     System.out.print("\nPares: ");
     for (int i = 0; i < 20; i++) {
       System.out.print(par[i] + " ");
@@ -56,7 +53,6 @@ public class Ejercicio10 {
     for (int i = 0; i < 20; i++) {
       System.out.print(numero[i] + " ");
     }
-    
 
   }
 
